@@ -1,0 +1,16 @@
+{
+    "default_string":
+	 "--pl_model ClassifierModel --using_val --encoder layers.encoder_ellastic --equally_sample --batch_size 256 --E_lr 0.001 --E_init N02 --min_epochs 0 --max_epochs 90 --dataset ELASTICC --head_dim 48 --num_heads 4 --M 64 --tab_head_dim 32 --tab_num_heads 4 --eval_multiple_metrics time --which_tabular_feat feat_norm --attn_layers 3",
+     "train":{
+    	"details": "",
+    	"eval_loss": "F1Score_MLPMix/val",
+    	"mode": "max"},
+    "ftune-1000":{
+    	"details": "--pl_pre_model ClassifierModel --label_per 1000 --dataset ELASTICC_STREAM",
+    	"eval_loss": "F1Score_MLPMix/val",
+    	"mode": "max"},
+	"ftune-10000":{
+		"details": "--pl_pre_model ClassifierModel --label_per 10000 --dataset ELASTICC_STREAM",
+		"eval_loss": "F1Score_MLPMix/val",
+		"mode": "max"}
+}

@@ -1,0 +1,28 @@
+{
+    "dict_tune": {
+        "arch": {
+            "lc"                            : " --emb_to_classifier token --predict_obj lc  --use_mask_alert --use_time_phot",
+            "lc_mtime"                      : " --emb_to_classifier token --predict_obj lc  --use_mask_alert --use_time_phot --online_opt_tt",
+
+            "header"                        : " --emb_to_classifier token --predict_obj tab --use_mask_alert --using_metadata",
+            "features"                      : " --emb_to_classifier token --predict_obj tab --use_mask_alert --using_features",
+            "features_mtime"                : " --emb_to_classifier token --predict_obj tab --use_mask_alert --using_features --online_opt_tt",
+            "header_feat"                   : " --emb_to_classifier token --predict_obj tab --use_mask_alert --using_metadata --using_features",
+            "header_feat_mtime"             : " --emb_to_classifier token --predict_obj tab --use_mask_alert --using_metadata --using_features --online_opt_tt",
+
+            "lc_header"                     : " --emb_to_classifier token --predict_obj all --use_mask_alert --use_time_phot --using_metadata",
+    	    "lc_header_mtime"               : " --emb_to_classifier token --predict_obj all --use_mask_alert --use_time_phot --using_metadata --online_opt_tt",
+            "lc_header_feat"                : " --emb_to_classifier token --predict_obj all --use_mask_alert --use_time_phot --using_metadata --using_features",
+            "lc_header_feat_mtime"          : " --emb_to_classifier token --predict_obj all --use_mask_alert --use_time_phot --using_metadata --using_features --online_opt_tt",
+
+            "lc_pos_enc_mtime"              : " --emb_to_classifier token --predict_obj lc  --use_mask_alert --use_time_phot --use_common_positional_encoding --online_opt_tt" ,
+            "lc_header_pos_enc_mtime"       : " --emb_to_classifier token --predict_obj all --use_mask_alert --use_time_phot --using_metadata --use_common_positional_encoding --online_opt_tt",
+            "lc_header_pos_enc_mtime_no_qt" : " --emb_to_classifier token --predict_obj all --use_mask_alert --use_time_phot --using_metadata --use_common_positional_encoding --online_opt_tt --not_quantile_transformer",
+            "lc_header_mtime_no_qt"         : " --emb_to_classifier token --predict_obj all --use_mask_alert --use_time_phot --using_metadata --online_opt_tt --not_quantile_transformer"
+        },
+        "reset":{
+            "no_reset": "",
+            "reset"   : "--reset_tab_transformer --reset_lc_transformer"
+        }
+    }
+}
