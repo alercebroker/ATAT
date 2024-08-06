@@ -1,9 +1,9 @@
 #!/bin/bash
 declare -A dictionary
-dictionary["data_partition_paper"]="1z7TNKzTmPeTR2kJA8kDg7c0KGyn-UrBi"
-dictionary["results_rf_paper"]="1FmXMEDezyeBAGVcG9gVjqsxo_1IVmfKq"
-dictionary["results_paper"]="1GZmfvDBjwZhD3J_8JYKyonUIHUCofWef"
-dictionary["dynamic_features"]="1IPNoHHtokHy6DIq_6IWwuOxrrqfSFfHO"
+dictionary["data_partition_paper"]="1nFqNBgSAr0MBGxQbBIsvA_OLIh4KMG9S"
+dictionary["results_rf_paper"]="1tfiUvdFyTSJp_HPdEaUYkxq-QHdOBK9b"
+dictionary["results_paper"]="1teIi3GfPbYOZXaIHRAa_OCPTY9QYXTU1"
+dictionary["dynamic_features"]="1tXqx7JTaMeO_sDBQ5RK4cLKw_1lUxZmn"
 dictionary["data_original_fits/FULL_ELASTICC_TRAIN"]="1ci53lW7n1ccyPgQ3pMToH-gAfCZqAplW"
 
 FILEID=${dictionary[$1]}
