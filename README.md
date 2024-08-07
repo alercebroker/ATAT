@@ -80,7 +80,7 @@ bash get_important_files.sh results_rf_paper
 
 If you have problems downloading, you can get the files from here:
 
-https://drive.google.com/drive/folders/1nx5C4bZLdnjCUZ_U6Y3bz2atdK7YYDOQ?usp=drive_link
+https://drive.google.com/drive/folders/1uVOSJ1WMJH3o-5Czqx0WBcdmtf548GQ1?usp=sharing
 
 These files should be unzipped in the same project folder.
 
