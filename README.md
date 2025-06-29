@@ -86,7 +86,7 @@ These files should be unzipped in the same project folder.
 
 ## Get data
 
-First you should download the data from `https://portal.nersc.gov/cfs/lsst/DESC_TD_PUBLIC/ELASTICC_TRAINING_SAMPLES/FULL_ELASTICC_TRAIN.tar` and place it inside the project in a folder named `data_original_fits`.
+First you should download the data from `https://portal.nersc.gov/cfs/lsst/DESC_TD_PUBLIC/ELASTICC/TRAINING_SAMPLES/FULL_ELASTICC_TRAIN.tar` and place it inside the project in a folder named `data_original_fits`.
 
 After that, you should process the data. It can be done running
 
